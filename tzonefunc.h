@@ -23,7 +23,8 @@ TODO
 	
 */
 
-#include <openisp/ucidr.h>
+//#include <openisp/ucidr.h>
+#include "ucidr-1.1/ucidr.h"
 #include <math.h>
 
 //from tresource.c

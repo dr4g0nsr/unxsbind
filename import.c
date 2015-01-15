@@ -18,7 +18,8 @@ NOTES
 
 #include "mysqlrad.h"
 #include <dirent.h>
-#include <openisp/ucidr.h>
+//#include <openisp/ucidr.h>
+#include "ucidr-1.1/ucidr.h"
 
 #define macro_MySQLQueryBasic \
 	mysql_query(&gMysql,gcQuery);\

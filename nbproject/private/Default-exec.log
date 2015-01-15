@@ -1,0 +1,14 @@
+called: cc
+	/opt/development/unxsbind
+	cc
+	-c
+	tzone.c
+	-o
+	tzone.o
+	-O3
+	-msse4.2
+	-mfpmath=sse
+	-mtune=native
+	-march=native
+	-Wall
+

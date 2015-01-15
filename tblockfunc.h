@@ -14,7 +14,8 @@ AUTHOR/LEGAL
 //ModuleFunctionProtos()
 
 #include <math.h>
-#include <openisp/ucidr.h>
+//#include <openisp/ucidr.h>
+#include "ucidr-1.1/ucidr.h"
 
 static char cSearch[64]={""};
 //Aux drop/pull downs

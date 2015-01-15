@@ -1,0 +1,8 @@
+cc -c tzone.c -o tzone.o -O3 -msse4.2 -mfpmath=sse -mtune=native -march=native -Wall
+In file included from tzone.c:91:0:
+tzonefunc.h:26:27: fatal error: openisp/ucidr.h: No such file or directory
+ #include <openisp/ucidr.h>
+                           ^
+compilation terminated.
+makefile:31: recipe for target 'tzone.o' failed
+make: *** [tzone.o] Error 1

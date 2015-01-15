@@ -9,14 +9,18 @@
 #NOTES
 #	This is a CentOS5 rpm release version only (use CFLAG -pedantic to cleanup.)
 #	For help contact support @ openisp . net
-CFLAGS= -O3 -msse4.2 -mfpmath=sse -mtune=native -march=native -Wall
+#CFLAGS= -O3 -msse4.2 -mfpmath=sse -mtune=native -march=native -Wall
+CFLAGS= -Wall
 
-LIBS= -L/lib/i386-linux-gnu -L/usr/lib/mysql -L/usr/lib/openisp -lz -lcrypt -lm -lssl -lucidr -lmysqlclient -lm
+LIBS= -L/usr/lib/mysql -L/usr/lib/openisp -Lucidr-1.1 -lz -lcrypt -lm -lssl -lucidr -lmysqlclient -lm
 
 all: iDNS.cgi
 
-iDNS.cgi: tzone.o tresource.o trrtype.o tjob.o tmailserver.o tconfiguration.o tnstype.o tnsset.o tns.o tserver.o ttemplate.o ttemplateset.o ttemplatetype.o tlog.o tlogtype.o tblock.o tview.o tregistrar.o tglossary.o tzoneimport.o tresourceimport.o tmonthhit.o tmonth.o tlogmonth.o thit.o thitmonth.o tdeletedzone.o tdeletedresource.o tclient.o tauthorize.o  bind.o main.o import.o extjobqueue.o cgi.o mysqlconnect.o
+iDNS.cgi: tzone.o tresource.o trrtype.o tjob.o tmailserver.o tconfiguration.o tnstype.o tnsset.o tns.o tserver.o ttemplate.o ttemplateset.o ttemplatetype.o tlog.o tlogtype.o tblock.o tview.o tregistrar.o tglossary.o tzoneimport.o tresourceimport.o tmonthhit.o tmonth.o tlogmonth.o thit.o thitmonth.o tdeletedzone.o tdeletedresource.o tclient.o tauthorize.o  bind.o main.o import.o extjobqueue.o cgi.o mysqlconnect.o ucidr
 	cc tzone.o tresource.o trrtype.o tjob.o tmailserver.o tconfiguration.o tnstype.o tnsset.o tns.o tserver.o ttemplate.o ttemplateset.o ttemplatetype.o tlog.o tlogtype.o tblock.o tview.o tregistrar.o tglossary.o tzoneimport.o tresourceimport.o tmonthhit.o tmonth.o tlogmonth.o thit.o thitmonth.o tdeletedzone.o tdeletedresource.o tclient.o tauthorize.o  bind.o main.o import.o extjobqueue.o cgi.o mysqlconnect.o -o iDNS.cgi $(LIBS)
+
+ucidr: ucidr-1.1/ucidr.o
+	cd ucidr-1.1 && make
 
 mysqlping: mysqlping.o
 	cc mysqlping.c -o mysqlping $(LIBS)

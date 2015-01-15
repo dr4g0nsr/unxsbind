@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="ucidr-1.1">
+        <in>ucidr.c</in>
+      </df>
+      <in>bind.c</in>
+      <in>cgi.c</in>
+      <in>extjobqueue.c</in>
+      <in>import.c</in>
+      <in>main.c</in>
+      <in>mysqlconnect.c</in>
+      <in>tauthorize.c</in>
+      <in>tblock.c</in>
+      <in>tclient.c</in>
+      <in>tconfiguration.c</in>
+      <in>tdeletedresource.c</in>
+      <in>tdeletedzone.c</in>
+      <in>tglossary.c</in>
+      <in>thit.c</in>
+      <in>thitmonth.c</in>
+      <in>tjob.c</in>
+      <in>tlog.c</in>
+      <in>tlogmonth.c</in>
+      <in>tlogtype.c</in>
+      <in>tmailserver.c</in>
+      <in>tmonth.c</in>
+      <in>tmonthhit.c</in>
+      <in>tns.c</in>
+      <in>tnsset.c</in>
+      <in>tnstype.c</in>
+      <in>tregistrar.c</in>
+      <in>tresource.c</in>
+      <in>tresourceimport.c</in>
+      <in>trrtype.c</in>
+      <in>tserver.c</in>
+      <in>ttemplate.c</in>
+      <in>ttemplateset.c</in>
+      <in>ttemplatetype.c</in>
+      <in>tview.c</in>
+      <in>tzone.c</in>
+      <in>tzoneimport.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O2 -mtune=native -march=native"/>
+        <element flagsID="1" commonFlags="-O3 -msse4.2 -mtune=native -march=native"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f makefile</buildCommand>
+          <cleanCommand>${MAKE} -f makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="bind.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="cgi.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="extjobqueue.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <folder path="0/ucidr-1.1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="import.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="mysqlconnect.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tauthorize.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tblock.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tclient.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tconfiguration.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tdeletedresource.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tdeletedzone.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tglossary.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="thit.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="thitmonth.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tjob.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tlog.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tlogmonth.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tlogtype.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tmailserver.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tmonth.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tmonthhit.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tns.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tnsset.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tnstype.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tregistrar.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tresource.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tresourceimport.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="trrtype.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tserver.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="ttemplate.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="ttemplateset.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="ttemplatetype.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tview.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tzone.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="tzoneimport.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="ucidr-1.1/ucidr.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
